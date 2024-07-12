@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+   
+    "module": "AMD",
+    "target": "es2016",
+    "outFile": "../../server/apps/app-1.js",                        
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+
+    "strict": true,                                      /* Enable all strict type-checking options. */
+  
+    "skipLibCheck": true,
+    "types": [
+      "./global.d.ts"
+    ]                                /* Skip type checking all .d.ts files. */
+  }
+}
